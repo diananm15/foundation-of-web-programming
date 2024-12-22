@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery</title>
+    <link rel="stylesheet" href="mystyle.css">  
+    
+</head>
+<body>
+    <h1>Gallery</h1>
+    
+    <button onclick="window.location.href='https: //contentToggle.com';">questions</button>
+    <div class="image-container">
+        <img src="img3/p1.jpg" alt="panda" class="picture">
+        <img src="img3/p3.jpg" alt="pink bird " class="picture">
+        <img src="img3/p15.jpg" alt="eustoma" class="picture">
+        <img src="img3/p5.jpg" alt="white bird " class="picture">
+        <img src="img3/p8.jpg" alt="Lycoris " class="picture">
+        <img src="img3/p2.jpg" alt="red panda" class="picture">
+        <img src="img3/p4.jpg" alt="bird " class="picture">
+
+        
+        <img src="img3/p10.jpeg" alt=" violet sky " class="picture">
+        <img src="img3/p7.webp" alt="purple flower" class="picture">
+        <img src="img3/p13.webp" alt="winter" class="picture">
+        <img src="img3/p11.jpg" alt="Aurora (northern lights )" class="picture">
+        <img src="img3/p14.jpg" alt="spring " class="picture">
+        <img src="img3/p12.jpg" alt="Aurora (northern lights )" class="picture" >
+        <img src="img3/p16.jpg" alt="Lily" class="picture">
+        <img src="img3/p9.webp" alt="blue sky " class="picture">
+
+    </div>
+
+    <div id="modal" class="mymodal">
+        <span class="close-image">&#x2716;</span>
+        <img id="modal-image" src=" " alt="modal-img-panda">
+    </div>
+    
+
+    <script>
+
+        const allImages = document.querySelectorAll('.picture');
+        
+        
+        const modal = document.getElementById('modal');  
+        const modalImage = document.getElementById('modal-image');  
+        const modalClose = document.querySelector('.close-image'); 
+        
+        
+        allImages.forEach(image => {
+            image.addEventListener('click', function() {
+                modal.style.display = 'block'; 
+                modalImage.src = this.src; 
+            });
+        });
+        
+        
+        modalClose.addEventListener('click', function() {
+            modal.style.display = 'none';  
+        });
+        </script>
+
+    
+
+
+
+
+
+</body>
+</html>

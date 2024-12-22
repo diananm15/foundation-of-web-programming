@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="box"> 
+        <form action="" method="post">
+        <h1>Сontact Аorm</h1>
+        <div class="box1">
+            <label for="first_name"></label>
+            <input type="text" id="first_name" name="first_name" minlength="3" maxlength="15" placeholder="first_name" required><br>
+
+            <label for="last_name"></label><br>
+            <input type="text" id="last_name" name="last_name" minlength="5" maxlength="20" placeholder="last_name" required><br>
+
+            <label for="email"></label><br>
+            <input type="email" id="email" name="email" placeholder="email" required><br>
+
+            <label for="password"></label><br>
+            <input type="password" id="password" name="password" minlength="4" placeholder="password" autocomplete="new-password" required><br>
+
+            <label for="dob"></label><br>
+            <input type="date" id="dob" name="dob" placeholder="date of birth" required><br>
+
+            <label for="gender"></label><br>
+            <select id="gender" name="gender" aria-label="select your gender">
+                <option value="">select your gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select><br><br>
+        
+        </div> 
+        <div class="box3">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clean">
+        </div>
+    </div>
+        </form>      
+
+    </body>
+</html>

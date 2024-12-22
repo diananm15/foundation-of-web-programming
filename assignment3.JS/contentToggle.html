@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Toggle</title>
+    <link rel="stylesheet" href="mystyle2.css">  
+</head>
+<body>
+    <h1>Panda</h1>
+    <button id="change_SteelBlue"   class="button2"  onclick="(changeColor1('SteelBlue'))">SteelBlue</button>
+    <button id="change_gray"  class="button3" onclick="(changeColor1('#555'))">gray</button>
+
+    <script>
+        function changeColor1(newcolor){
+            const ncolor = document.getElementById("p_id");
+            ncolor.style.color=newcolor;
+        }  
+    </script>
+
+    <p id="p_id">The panda is one of the oldest animals in the world. They are funny and cute and have long been loved by adults and children alike.
+        Pandas live exclusively in the mountain forests of China. In length, the panda bear reaches almost 2 meters, the length of the tail is up to 12 cm. 
+        It weighs up to 120 kg. These cute bears live in captivity up to 25 years, in the wild are little studied, but scientists agree on the figure of 14-16 years. 
+       To describe the panda can be quite simple: a large body covered with thick fur, short thick paws, on which powerful strong nails. Outwardly, the panda is very similar
+        to a bear, but the body structure was questioned by scientists, and the panda was placed then in the bear family, then in its own special family and even in the raccoon family.   
+       The lesser red panda is a rare crepuscular mammal found in China,
+         northern Burma, Bhutan, Nepal and northeastern India. They are rather small creatures, with
+          dimensions comparable to a domestic cat: body length - 50-64 cm, tail length - 28-48 cm, and weight - about 5 kg. 
+          Small pandas live on average 8-10 years.</p>
+    <h2> Question 1: where the red pandas live ?</h2>
+
+        <button class="button" onclick="something()">Answer 1</button>
+        <p id="demo1"></p>
+    <script>
+        function something (){
+            document.getElementById("demo1").innerHTML ="In China, northern Burma, Bhutan, Nepal and northeastern India.";
+        }
+    </script>
+    
+    <h3>Northern lights</h3>
+    <button id="change_BlueViolet"   class="button4"  onclick="(changeColor1('BlueViolet'))">BlueViolet</button>
+    <button id="change_gray"  class="button5" onclick="(changeColor1('#555'))">gray</button>
+
+    <script>
+        function changeColor1(newcolor){
+            const ncolor = document.getElementById("p_id2");
+            ncolor.style.color=newcolor;
+        }  
+    </script>
+    <p id="p_id2">The Northern Lights, or aurora (Aurora Borealis), is an optical phenomenon in which the upper layer of a planet's atmosphere glows with green, red,
+        yellow, blue, and violet colors . In the Southern Hemisphere, such as Australia, this phenomenon can also be observed, it is called the Southern Lights.
+        Lights at the North and South Poles are also called polar lights. The Northern Lights are more popular among tourists, as they can be observed in more accessible places.    
+        Mikhail Lomonosov was the first to reveal the nature of this phenomenon . The aurora borealis is caused by the collision of the Earth's magnetosphere with
+        the solar wind. Especially bright aurora can be observed after solar flares, when a whole cloud of charged particles is released.</p>
+    <h4>Question 2: What causes the aurora borealis </h4>
+
+    <button class="button" onclick="something2()">Answer 2</button>
+    <p id="demo2"></p>
+<script>
+    function something2 (){
+        document.getElementById("demo2").innerHTML ="The aurora borealis is caused by the collision of the Earth's magnetosphere with the solar wind.";
+    }
+</script>
+
+
+
+</body>
+</html>

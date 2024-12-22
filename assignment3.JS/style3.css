@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(152, 224, 121);
+    padding: 10px 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+
+}
+.FAQ {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.FAQ .questions {
+    background-color: #99e49b;
+    color: rgb(10, 10, 10);
+    padding: 13px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.FAQ .Answer {
+    padding: 15px;
+    display: none;
+    background-color: #d6d1d1;
+    font-size: 15px;
+}
+.FAQ.active .Answer {
+    display: block; 
+}
+.FAQ .questions:hover {
+    background-color: #8f8e93;
+}
