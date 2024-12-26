@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+    font-size: 2.5em;
+
+}
+
+h2, h4 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-left: 135px;
+    color: #265c28;
+}
+
+p {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    font-size: 1.1em;
+    text-align: justify;
+    color: #555;
+}
+
+button.button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #55ac58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #4995ac;
+}
+
+.button2{
+    padding: 10px 10px;
+    font-size: 1.2em;
+    background-color: #55ac58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-bottom: 20px;
+}
+.button3{
+    font-size: 1.2em;
+    background-color: #55ac58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.button4{
+    padding: 10px 10px;
+    font-size: 1.2em;
+    background-color: #55ac58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-bottom: 20px;
+}
+.button5{
+    font-size: 1.2em;
+    background-color: #55ac58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}

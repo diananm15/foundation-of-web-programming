@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://flomaster.top/uploads/posts/2023-01/1672958042_flomaster-club-p-peizazh-yelki-narisovannii-oboi-2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+     
+    
+}
+h1{
+    color: rgb(47, 100, 41); 
+    font-size: 40px;
+    
+}
+.box{
+    text-align: center;
+    background-color: transparent;
+    width: 25%;
+    margin: 10%;
+}
+.box1 input, .box1 select{
+    width: 90%;
+    border: 0.3vh solid green;
+    border-radius: 20px;
+    text-indent: 5%;
+}
+.box1 input, .box1 select{
+    height: 3vh;
+}
+.box1 select{
+    height: 4vh;
+}
+.box3 input[type="reset"] {
+    width: 30%;
+    border-radius: 50px;
+    border: 0.3vh solid  #1d72d8; 
+    background-color: rgb(43, 167, 225);  
+    color: rgb(20, 87, 5);
+}
+.box3 input[type="submit"]{
+    width: 30%;
+    border-radius: 50px;
+    border: 0.3vh solid  #08773a; 
+    background-color: rgb(14, 182, 76);  
+    color: rgb(22, 27, 183);
+}

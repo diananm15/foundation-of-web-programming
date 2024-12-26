@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Menu</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <h1>menu</h1>
+
+  <div class="FAQ">
+    <div class="questions">
+        <h2>Panda?</h2>
+    </div>
+    <div class="Answer">
+        <p>The panda is one of the oldest animals in the world. They are funny and cute and have long been loved by adults and children alike.</p>
+    </div>
+</div>
+
+<div class="FAQ">
+    <div class="questions">
+        <h2>Northern Lights?</h2>
+    </div>
+    <div class="Answer">
+        <p>The Northern Lights, or aurora (Aurora Borealis), is an optical phenomenon in which the upper layer of a planet's atmosphere glows with green, red, yellow, blue, and violet colors.</p>
+    </div>
+</div>
+
+<script>
+  
+  const accordionmenu = document.querySelectorAll(".FAQ");
+  accordionmenu.forEach(FAQ => {
+      FAQ.addEventListener("click", () => {
+          FAQ.classList.toggle("active"); 
+      });
+  });
+</script>
+
+
+</body>
+</html>
